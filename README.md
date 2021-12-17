@@ -29,11 +29,13 @@ Text-Mining-Internship-main/
  |   |--topics.csv
  |   |--webItem.csv
  |   |--webLink.csv
- |--cordis_programmes_topics.py
+ |   |--cordis_programmes_topics.py
  |--Text Mining Analysis.ipynb
  |--requirements.txt
 ```
 ```
-$> python3 cordis_programmes_topics.py --input csv/<filename.csv>
+$> mv ~/Text-Mining-Internship-main/cordis_programmes_topics.py ~/Text-Mining-Internship-main/csv/cordis_programmes_topics.py
+$> cd csv
+$> python3 cordis_programmes_topics.py --input <filename.csv>
 ```
 After running the above script to get the topics run the Python Notebook to visualize the results.

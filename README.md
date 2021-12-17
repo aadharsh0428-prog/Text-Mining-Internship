@@ -7,6 +7,14 @@ demonstrate clustering. <br>
 1.Clone the repository using git clone https://github.com/aadharsh0428-prog/Text-Mining-Internship.git <br>
 2.Download and extract the dataset from [here](https://cordis.europa.eu/data/cordis-h2020projects-csv.zip). <br>
 
+### Run Requirements. 
+This will install all the dependencies need to run the project.
+
+```
+$> cd Text-Mining-Internship-main
+$> pip install -r requirements.txt
+```
+
 ### How to run scripts to get text file.
 
 After cloning the repository place the extracted data folder as well. The directory structure is as below <br>
@@ -23,9 +31,9 @@ Text-Mining-Internship-main/
  |   |--webLink.csv
  |--cordis_programmes_topics.py
  |--Text Mining Analysis.ipynb
+ |--requirements.txt
 ```
 ```
-$> cd Text-Mining-Internship-main
 $> python3 cordis_programmes_topics.py --input csv/<filename.csv>
 ```
 After running the above script to get the topics run the Python Notebook to visualize the results.

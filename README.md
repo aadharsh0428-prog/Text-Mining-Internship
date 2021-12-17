@@ -24,3 +24,7 @@ Text-Mining-Internship-main/
  |--cordis_programmes_topics.py
  |--Text Mining Analysis.ipynb
 ```
+```
+$> cd Text-Mining-Internship-main
+$> python3 cordis_programmes_topics.py --input <filename.csv>
+```

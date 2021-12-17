@@ -26,6 +26,6 @@ Text-Mining-Internship-main/
 ```
 ```
 $> cd Text-Mining-Internship-main
-$> python3 cordis_programmes_topics.py --input <filename.csv>
+$> python3 cordis_programmes_topics.py --input csv/<filename.csv>
 ```
 After running the above script to get the topics run the Python Notebook to visualize the results.
